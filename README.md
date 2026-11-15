@@ -26,7 +26,8 @@ BounceHaven is a interactive 2d game built for Hack Club Haven. The game is buil
 ## Demo
 
 [Live Demo]( https://be-keb.github.io/BounceHaven/) &mdash; Try the game
-[Demo on Itch]( https://be-keb.itch.io/bouncehaven) &mdash;
+<br>
+[Try on Itch]( https://be-keb.itch.io/bouncehaven) &mdash;
 <br>
 <br>
 
