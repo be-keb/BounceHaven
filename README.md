@@ -17,7 +17,7 @@
 ---
 
 ## Overview
-BounceHaven is a interactive 2d game built for Hack Club Haven. The game is built around the theme "BounceBack"
+BounceHaven is a interactive 2d game built for Hack Club Haven. The game is built around the theme "BounceBack". 
 <br>
 <br>
 
