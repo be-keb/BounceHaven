@@ -74,17 +74,4 @@
   z-index: 999;
   pointer-events: none; 
 }
-#img {
-      width: 100%;      
-    max-width: 450px; 
-    height: auto;
-    margin-bottom: 10px;
-    object-fit: contain;
-}
-img1 {
-      width: 100%;       
-    max-width: 450px;  
-    height: auto;
-    margin-bottom: 10px;
-    object-fit: contain;
-}
+
