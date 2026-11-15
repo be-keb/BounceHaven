@@ -23,6 +23,7 @@ let difficulty = "Easy";
 let platforms = [];
 let platformId = 1;
 let playerX = 0, playerY = 0, velocityY = 0, onGround = false;
+let isMoving = false; 
 let cameraX = 0;
 let score = 0;
 let scoredPlatforms = new Set();
@@ -30,7 +31,8 @@ let scoredPlatforms = new Set();
 let audioCtx = null, analyser = null, micStream = null;
 let floatBuf = null;
 let smoothedVoice = 0;
-// THE MICROPHONE SHI (I DON UNDERSTAND ANY OF THE MICROPHONE RELATED SHI)
+
+// THE MICROPHONE SHI (I DON UNDERSTAND ANY OF THE MICROPHONE RELATED SHI SO USED A BIT OF AI :))
 async function initMic() {
   if (audioCtx) return;
   try {
@@ -63,7 +65,7 @@ function startGame(diff) {
   document.getElementById('main-menu').style.display = 'none';
   document.getElementById('left').style.display = 'none';
   document.getElementById('right').style.display = 'none';
-   document.getElementById('btm').style.display = 'none';
+  document.getElementById('btm').style.display = 'none';
   canvas.style.display = 'block';
   initMic(); 
   
@@ -80,6 +82,8 @@ function startGame(diff) {
   velocityY = 0;
   onGround = true;
   cameraX = 0;
+  
+  isMoving = false; 
   
   state = "playing";
   requestAnimationFrame(loop);
@@ -108,8 +112,13 @@ function generatePlatforms() {
     platforms = platforms.filter(p => p.x + p.w > cameraX - 500);
   }
 }
+
 function update(dt) {
   readVoice(dt);
+  
+  if (!isMoving && smoothedVoice > 0.15) {
+    isMoving = true;
+  }
 
   if (smoothedVoice > 0.15 && onGround) {
     const jumpForce = 500 + (smoothedVoice * 600); 
@@ -119,7 +128,11 @@ function update(dt) {
 
   velocityY += GRAVITY * dt;
   playerY += velocityY * dt;
-  playerX += PLAYER_SPEED * dt;
+  
+  if (isMoving) {
+    playerX += PLAYER_SPEED * dt;
+  }
+  
   cameraX = Math.max(0, playerX - SCREEN_W / 3);
 
   if (playerY < 0) {
@@ -161,6 +174,7 @@ function update(dt) {
   
   generatePlatforms();
 }
+
 function draw() {
   ctx.clearRect(0, 0, SCREEN_W, SCREEN_H);
 
@@ -205,6 +219,7 @@ function draw() {
   ctx.strokeStyle = "#fff8e6";
   ctx.strokeRect(hx, hy, w, h);
 }
+
 let lastT = performance.now();
 
 function loop(now) {
