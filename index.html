@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BounceHaven</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="assets/hckclb.png" id="corner-image" alt="corner image">
+
+  <div class="menu-container" id="main-menu">
+    <h1>BounceHaven</h1>
+    <div class="button-group">
+      <button class="easy" onclick="startGame('Easy')">EASY</button>
+      <button class="medium" onclick="startGame('Medium')">MEDIUM</button>
+      <button class="hard" onclick="startGame('Hard')">HARD</button>
+    </div>
+  </div>
+
+  <canvas id="game" width="1280" height="720"></canvas>
+  <script src="index.js"></script>
+</body>
+</html>
