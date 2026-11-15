@@ -30,12 +30,12 @@
   z-index: 10;
   pointer-events: none;
 }
-#btm {
+#bottom-left {
   position: fixed;
-  bottom: 20px;
+  bottom: 20px;  
   left: 20px;   
-  width: 200px; 
-  height: auto;
+  width: 250px;  
+  height: auto;  
   z-index: 10;
   pointer-events: none; 
 }
