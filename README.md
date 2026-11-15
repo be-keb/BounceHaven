@@ -18,15 +18,21 @@
 
 ## Overview
 BounceHaven is a interactive 2d game built for Hack Club Haven. The game is built around the theme "BounceBack"
+<br>
+<br>
+
 
 ## Demo
 
-[Live Demo](https://be-keb.github.io/) &mdash; -Try the game
+[Live Demo](https://be-keb.github.io/) &mdash; Try the game
+<br>
+<br>
 
 ## AI Usage
 
 I mostly used AI for the microphone part (the voice to jump physics) and for the bouncing physics, cause i have never used microphone input in any of my projects before, let alone converting the sound into jumps!
 (Even the microphone code isnt fully AI generated, i did some changes to it according to my needs)
+
 
 ### Tech Stack
 
