@@ -32,12 +32,12 @@
 }
 #btm {
   position: fixed;
-  top: 2000px;
-  left: 20px;
+  bottom: 20px;
+  left: 20px;   
   width: 200px; 
   height: auto;
   z-index: 10;
-  pointer-events: none;
+  pointer-events: none; 
 }
 
   .menu-container {
