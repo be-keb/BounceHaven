@@ -1,4 +1,3 @@
-
 <h1><p align="center" font><bold>BounceHaven</bold></p></h1>
 
 <p align="center">
@@ -12,8 +11,7 @@
 <p align="center">
   <a href="#demo">Demo</a> &bull;
   <a href="#ai-usage">AI Usage</a> &bull;
-  <a href="#tech_stack">Teck Stack</a> &bull;
-  <a href="#license">License</a>
+  <a href="#tech-stack">Teck Stack</a> &bull;
 </p>
 
 ---
@@ -38,18 +36,3 @@ I mostly used AI for the microphone part (the voice to jump physics) and for the
 4. Canvas API
 5. WebAudio API
 6. Media Devices API
-```
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-- The Atbash cipher has roots in biblical Hebrew texts, notably appearing in the Book of Jeremiah and Ezekiel.
-- Inspired by the intersection of ancient cryptography and modern digital design.
-
----
-
-<p align="center">
-  Built with pure HTML, CSS, and JavaScript. No frameworks. No dependencies.
-</p>
