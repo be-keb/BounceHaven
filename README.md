@@ -1,7 +1,7 @@
 <h1><p align="center" font><bold>BounceHaven</bold></p></h1>
 
 <p align="center">
-  <img src="assets/bnchvn.png" alt="BounceHaven" width="600">
+  <img src="assets/bnchvn.jpg" alt="BounceHaven" width="600">
 </p>
 
 <p align="center">
