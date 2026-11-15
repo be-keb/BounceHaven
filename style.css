@@ -11,6 +11,25 @@
     background: #241616 url('assets/background.webp') no-repeat center center;
     background-size: cover;
   }
+#left {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 200px; 
+  height: auto;
+  z-index: 10;
+  pointer-events: none;
+}
+
+#right {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 200px; 
+  height: auto;
+  z-index: 10;
+  pointer-events: none;
+}
 
   .menu-container {
     display: flex;
