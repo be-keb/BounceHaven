@@ -11,7 +11,7 @@
 <p align="center">
   <a href="#demo">Demo</a> &bull;
   <a href="#ai-usage">AI Usage</a> &bull;
-  <a href="#tech-stack">Teck Stack</a> &bull;
+  <a href="#tech-stack">Teck Stack</a> 
 </p>
 
 ---
