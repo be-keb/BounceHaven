@@ -13,9 +13,9 @@ const PLAYER_SPEED = 320;
 const PLATFORM_H = 40;
 
 const DIFFICULTIES = {
-  Easy:   { gap: 250, width: 160, heightChange: [-60, 40] },
-  Medium: { gap: 300, width: 140, heightChange: [-50, 60] },
-  Hard:   { gap: 350, width: 120, heightChange: [-70, 80] },
+  Easy:   { gap: 300, width: 200, heightChange: [-40, 40] },
+  Medium: { gap: 330, width: 140, heightChange: [-45, 50] },
+  Hard:   { gap: 360, width: 120, heightChange: [-50, 70] },
 };
 
 let state = "menu";
