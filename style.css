@@ -75,21 +75,22 @@
   pointer-events: none; 
 }
 #left {
-  top: 20px;     
-  left: 20px;    
-  width: 100px;  
+  position: fixed;
+  bottom: 100;
+  right: 100;
+  width: 150px; 
   height: 100px;
-  z-index: 10;
-  pointer-events: none;
+  z-index: 999;
+  pointer-events: none; 
 }
 
 #right {
   position: fixed;
-  top: 20px; 
-  right: 20px;   
-  width: 100px;  
+  bottom: 100;
+  right: 0;
+  width: 150px; 
   height: 100px;
-  z-index: 10;
-  pointer-events: none;
+  z-index: 999;
+  pointer-events: none; 
 }
 
