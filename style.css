@@ -93,12 +93,3 @@
   z-index: 999;
   pointer-events: none; 
 }
-#btm {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  width: 250px;  
-  height: auto;
-  z-index: 10;
-  pointer-events: none; 
-}
