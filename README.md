@@ -34,6 +34,11 @@ BounceHaven is a interactive 2d game built for Hack Club Haven. The game is buil
 I mostly used AI for the microphone part (the voice to jump physics) and for the bouncing physics, cause i have never used microphone input in any of my projects before, let alone converting the sound into jumps!
 (Even the microphone code isnt fully AI generated, i did some changes to it according to my needs)
 
+## How to Play
+
+Select any difficulty you want to and allow the game for microphone access. Then start screaming in your microphone to make ZACH LATTA bounce on the platforms, change the intensity of your screams based on how far or how close you wanna land.
+P.S: IF ZACH jumps too high or falls under the platforms he will "BOUNCE BACK" up!
+
 
 ### Tech Stack
 
