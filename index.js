@@ -9,7 +9,7 @@ function imageReady(img) { return img.complete && img.naturalWidth > 0; }
 
 const PLAYER_SIZE = 150;
 const GRAVITY = 1000;
-const PLAYER_SPEED = 320;
+const PLAYER_SPEED = 300;
 const PLATFORM_H = 40;
 
 const DIFFICULTIES = {
