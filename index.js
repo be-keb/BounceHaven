@@ -61,6 +61,8 @@ function readVoice(dt) {
 function startGame(diff) {
   difficulty = diff;
   document.getElementById('main-menu').style.display = 'none';
+  document.getElementById('left').style.display = 'none';
+  document.getElementById('right').style.display = 'none';
   canvas.style.display = 'block';
   initMic(); 
   
