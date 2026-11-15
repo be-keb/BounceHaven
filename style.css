@@ -74,23 +74,3 @@
   z-index: 999;
   pointer-events: none; 
 }
-#left {
-  position: fixed;
-  bottom: 100;
-  right: 100;
-  width: 150px; 
-  height: 100px;
-  z-index: 999;
-  pointer-events: none; 
-}
-
-#right {
-  position: fixed;
-  bottom: 100;
-  right: 0;
-  width: 150px; 
-  height: 100px;
-  z-index: 999;
-  pointer-events: none; 
-}
-
