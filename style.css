@@ -75,11 +75,10 @@
   pointer-events: none; 
 }
 #left {
-  position: fixed;
   top: 20px;     
   left: 20px;    
-  width: 250px;  
-  height: auto;
+  width: 100px;  
+  height: 100px;
   z-index: 10;
   pointer-events: none;
 }
@@ -88,8 +87,8 @@
   position: fixed;
   top: 20px; 
   right: 20px;   
-  width: 250px;  
-  height: auto;
+  width: 100px;  
+  height: 100px;
   z-index: 10;
   pointer-events: none;
 }
